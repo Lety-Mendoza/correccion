@@ -15,17 +15,15 @@
                         </div>
                         <div class="mb-3">
                             <input type="text" formControlName="apellidoM" class="form-control form-control-lg"
-                            placeholder="Ingresar ApellidoM">
-                            <div class="text-danger"
-                                *ngIf="userForm.get('apellidoM')?.hasError('required') && userForm.get('apellidoM')?.touched">
-                                <span><strong> CAMPO OBLIGATORIO </strong></span>
-                            </div>
+                            placeholder="Ingresar ApellidoM"  
                         </div>
+                          <div class="text-danger"
+                               *ngiF="userForm.get("apellidoM")?.hasError("required")&&userForm.get("apellidoM)?.touched">
                         <div class="mb-3">
                             <input type="text" formControlName="nombre" class="form-control form-control-lg"
                                 placeholder="Ingresar Nombre(s)">
                             <div class="text-danger"
-                                *ngIf="userForm.get('nombre')?.hasError('required') && userForm.get('nombre')?.touched">
+                                *ngIf="userForm.get('nombre')?.hasError('required') && userForm.get('nombre')?.touched">                                                                                
                                 <span><strong> CAMPO OBLIGATORIO </strong></span>
                             </div>
                         </div>
